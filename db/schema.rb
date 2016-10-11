@@ -13,14 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20140908085400) do
 
-  create_table "aritle_views", force: true do |t|
-    t.integer  "article_id"
-    t.integer  "user_id"
-    t.string   "ip"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "article_comments", force: true do |t|
     t.integer  "article_id"
     t.integer  "user_id"

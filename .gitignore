@@ -19,3 +19,5 @@
 /public/assets/*
 /.idea/*
 /public/images/*
+/*.swp
+*.swp

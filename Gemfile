@@ -1,5 +1,4 @@
 source 'https://ruby.taobao.org'
-ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
@@ -41,15 +40,12 @@ gem 'bcrypt', '~> 3.1.7'
 # Use unicorn as the app server
 gem 'unicorn'
 
-group :development do
-  gem 'thin'
-end
 
 #Avatar
 gem 'gravatar_image_tag'
 
 #markdown
-gem 'markdown-toolbar', git: 'git@github.com:fxhover/markdown-toolbar.git'
+gem 'markdown-toolbar', git: 'https://github.com/fxhover/markdown-toolbar.git'
 gem 'redcarpet'
 
 #file upload
